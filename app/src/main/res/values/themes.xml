@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UAS_MobileProg" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#6750A4</item>
+        <item name="colorSurfaceVariant">#F5F0F5</item>
+        <item name="android:statusBarColor">?attr/colorSurfaceVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.UAS_MobileProg" parent="Base.Theme.UAS_MobileProg" />
+
+    <style name="CircleImage" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
